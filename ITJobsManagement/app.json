@@ -1,10 +1,10 @@
 ﻿{
     "id":  "0de4354a-d766-40e1-880e-0af13f78d87b",
-    "name":  "ITJobsManagement",
+    "name":  "IT Jobs Management",
     "publisher":  "bc4all.com",
     "version":  "1.0.0.0",
-    "brief":  "",
-    "description":  "",
+    "brief":  "Extension add new features to Jobs module for managing IT projects in small company",
+    "description":  "Extension add new features to Jobs module for managing IT projects in small company",
     "privacyStatement":  "",
     "EULA":  "",
     "help":  "",
@@ -16,8 +16,9 @@
     "screenshots":  [
 
                     ],
+    "runtime": "9.0",
     "platform":  "1.0.0.0",
-    "application":  "19.0.0.0",
+    "application":  "20.0.0.0",
     "idRanges":  [
                      {
                          "from":  66666,
@@ -26,7 +27,8 @@
                  ],
     "resourceExposurePolicy":  {
                                    "allowDebugging":  true,
-                                   "allowDownloadingSource":  false,
-                                   "includeSourceInSymbolFile":  false
-                               }
+                                   "allowDownloadingSource":  true,
+                                   "includeSourceInSymbolFile":  true
+                               },
+    "features": ["TranslationFile","NoImplicitWith"]
 }
